@@ -1,0 +1,10 @@
+DESCRIPTION="Merges two or more PDF files into one"
+HOMEPAGE="http://microtronyx.com/pdfmerge/"
+SRC_URI="mirror://sourceforge/pdfmerge4unix/${P}.tar.gz"
+SRC_DIR=.
+
+src_compile() { :; }
+
+src_install() {
+	dobin ${S}/pdfmerge
+}
