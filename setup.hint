@@ -1,0 +1,6 @@
+category: Graphics
+requires: ghostscript perl
+sdesc: "Merges multiple PDFs into one"
+ldesc: "pdfmerge4unix (a.k.a pdfmerge) is a command line program written 
+in Perl that merges pdf files in Unix-based platforms. It can merge any 
+number of pdf files from command line."

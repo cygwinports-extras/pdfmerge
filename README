@@ -1,0 +1,46 @@
+pdfmerge
+------------------------------------------
+pdfmerge4unix (a.k.a pdfmerge) is a command line program written in Perl 
+that merges pdf files in Unix-based platforms. It can merge any number 
+of pdf files from command line.
+
+Runtime requirements:
+  ghostscript-8.50-1
+  perl-5.8.8-4
+
+Canonical website:
+  http://microtronyx.com/pdfmerge/
+
+Canonical download:
+  http://downloads.sourceforge.net/pdfmerge4unix/
+
+-------------------------------------------
+
+Build instructions:
+  unpack pdfmerge-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pdfmerge-1.0-X.cygport all
+
+This will create:
+  /usr/src/pdfmerge-1.0-X-src.tar.bz2
+  /usr/src/pdfmerge-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/pdfmerge
+  /usr/share/doc/pdfmerge-1.0/GPL.txt
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
